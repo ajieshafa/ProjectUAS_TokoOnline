@@ -136,7 +136,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <?php if ($this->session->userdata('username')) { ?>
                                     <li>
-                                        <div>Selamat Datang <?php echo $this->session->userdata('username') ?></div>
+                                        <div>Selamat Datang <?php echo $this->session->userdata('username' ) ?></div>
                                     </li>
                                     <li><?php echo anchor('auth/logout', 'Logout') ?></li>
                                 <?php } else { ?>
