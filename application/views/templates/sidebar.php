@@ -7,7 +7,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url(('welcome')) ?>">
                 <div class="sidebar-brand-text mx-3">Spokat</div>
             </a>
 
@@ -16,7 +16,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url('dashboard') ?>">
+                <a class="nav-link" href="<?php echo base_url('welcome') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
